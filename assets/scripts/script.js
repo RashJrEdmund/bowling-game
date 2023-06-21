@@ -71,7 +71,7 @@ rollBtn.addEventListener('click', () => {
 
   setTimeout(() => {
     rollBall()
-    loading.classList.remove('active');
+    loading.classList.remove('active')
     rollBtn.disabled = false
   }, randomTimeLaps)
 })
