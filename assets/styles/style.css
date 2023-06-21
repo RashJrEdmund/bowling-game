@@ -38,8 +38,8 @@ ul {
 }
 
 .loading.active {
-  animation-iteration-count: infinite;
   animation: loadinganime;
+  animation-iteration-count: infinite;
   animation-duration: 1.3s;
 }
 
