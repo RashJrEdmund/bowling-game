@@ -71,6 +71,7 @@ ul {
 }
 
 .container1 {
+  
   display: flex;
   justify-content: center;
   gap: 50px;
