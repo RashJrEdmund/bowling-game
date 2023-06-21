@@ -67,9 +67,11 @@ rollBtn.addEventListener('click', () => {
   const max = 1900
 
   const randomTimeLaps = Math.floor(Math.random() * (max - min + 1)) + min
+  rollBtn.disabled = true
 
   setTimeout(() => {
     rollBall()
-    loading.classList.remove('active')
+    loading.classList.remove('active');
+    rollBtn.disabled = false
   }, randomTimeLaps)
 })
