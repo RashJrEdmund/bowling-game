@@ -70,13 +70,11 @@ ul {
   margin: auto;
 }
 
-/* moving in to container */
-
-.container1 {
+/* .container1 { // this was givin a lint error, just did inline styling;
   display: flex;
   justify-content: center;
   gap: 50px;
-}
+} */
 
 .btn,
 .btn1 {
