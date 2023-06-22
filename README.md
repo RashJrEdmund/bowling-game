@@ -11,7 +11,7 @@ you roll the ball to knock down pins
 This page is basically built with just
 * HTML and
 * CSS for styling.
-* and javascript
+* and JavaScript
 
 ### PREREQUISITES
 * You should already have a stable browser to use.
@@ -23,7 +23,7 @@ This page is basically built with just
 * type and run this comand (`git clone git@github.com:RashJrEdmund/bowling-game.git`)
 * change to the project directory by entering: cd bowling-game
 * Note That: all this is done using your Linux terminal or git-bash for windows users.
-https://github.com/RashJrEdmund/
+
 ## Command-line steps
 
 - $ git clone `https://github.com/RashJrEdmund/bowling-game`
