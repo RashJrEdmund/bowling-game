@@ -3,6 +3,7 @@ const totalScore = document.querySelectorAll('.total-score')
 const rollBtn = document.querySelector('.btn')
 const resetBtn = document.querySelector('.btn1')
 const loading = document.querySelector('.loading')
+const totalDisplay = document.querySelector('.total')
 
 let count = 0
 let totalScores = 0
@@ -49,6 +50,7 @@ const rollBall = () => {
   } else if (count === 100) {
     score[9].innerHTML = `${pinsHitFirst}, ${pinsHitSecond}`
     totalScore[9].innerHTML = totalScores
+    totalDisplay.innerHTML = `Total Pins: ${totalScores}`
   } else {
     loading.innerHTML = 'You have exceeded the number of frames'
     loading.classList.add('active')
