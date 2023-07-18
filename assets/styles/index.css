@@ -75,7 +75,7 @@ ul {
   text-align: center;
 }
 
-.total {
+/* .total {
   width: 170px;
   height: 60px;
   display: flex;
@@ -86,7 +86,7 @@ ul {
   margin: 15px 0 0;
   border-radius: 5px;
   align-self: flex-end;
-}
+} */
 
 .container1 {
   display: flex;
